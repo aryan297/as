@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+
+$font: "Amatic SC";
+body {
+  background: #4b384c;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+canvas {
+  position: absolute;
+  cursor: move;
+}
+p {
+  font-family: $font;
+  text-align: center;
+  margin: 0;
+  color: white;
+  user-select: none;
+  font-size: 50vmin;
+  line-height: 0.8;
+  text-transform: lowercase;
+}

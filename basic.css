@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+body {
+  background: #4b384c;
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+canvas {
+  position: absolute;
+  cursor: move;
+}
+
+p {
+  font-family: "Amatic SC";
+  text-align: center;
+  margin: 0;
+  color: white;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-size: 50vmin;
+  line-height: 0.8;
+  text-transform: lowercase;
+}
+/*# sourceMappingURL=basic.css.map */
